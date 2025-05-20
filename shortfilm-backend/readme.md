@@ -9,25 +9,26 @@ This is the backend service for the ShortFilm Generator App. It provides APIs fo
 
 
 
+# shortfilm-backend Project Structure
+
 shortfilm-backend/
-│
-├── api/                    # Core app
-│   ├── views.py            # All API views
-│   ├── urls.py             # Route definitions
-│   ├── prompts.py          # Gemini/ChatGPT prompt splitting
-│   ├── video\_generation.py # Google VEO2 API logic
-│   ├── audio\_generation.py # ElevenLabs API logic
-│   ├── merging.py          # Merge logic (video/audio/audio+video)
-│   ├── utils.py            # File handling & helper utilities
-│   ├── constants.py        # Keys & config
-│
-├── shortfilm/              # Django project files
-│   ├── settings.py
-│   ├── urls.py
-│
-├── venv/                   # Virtual environment
-├── manage.py
-└── requirements.txt
+- api/                    # Core app
+  - views.py              # All API views
+  - urls.py               # Route definitions
+  - prompts.py            # Gemini/ChatGPT prompt splitting
+  - video_generation.py   # Google VEO2 API logic
+  - audio_generation.py   # ElevenLabs API logic
+  - merging.py            # Merge logic (video/audio/audio+video)
+  - utils.py              # File handling & helper utilities
+  - constants.py          # Keys & config
+
+- shortfilm/              # Django project files
+  - settings.py
+  - urls.py
+
+- venv/                   # Virtual environment
+- manage.py
+- requirements.txt
 
 
 
