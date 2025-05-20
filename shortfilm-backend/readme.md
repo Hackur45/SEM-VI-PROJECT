@@ -38,7 +38,7 @@ shortfilm-backend/
 ### 1. Clone the repository
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Hackur45/SEM-VI-PROJECTS.git
 cd shortfilm-backend
 ````
 
