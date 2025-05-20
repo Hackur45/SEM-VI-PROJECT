@@ -1,0 +1,54 @@
+# === Global ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.log
+*.swp
+*.swo
+
+# === Python / Django ===
+shortfilm-backend/__pycache__/
+shortfilm-backend/**/*.py[cod]
+shortfilm-backend/*.sqlite3
+shortfilm-backend/*.db
+shortfilm-backend/venv/
+shortfilm-backend/env/
+shortfilm-backend/.env
+shortfilm-backend/.env.*
+shortfilm-backend/media/
+shortfilm-backend/staticfiles/
+shortfilm-backend/celerybeat-schedule
+shortfilm-backend/htmlcov/
+shortfilm-backend/.coverage
+shortfilm-backend/.mypy_cache/
+shortfilm-backend/.pytest_cache/
+shortfilm-backend/.tox/
+shortfilm-backend/.nox/
+shortfilm-backend/.idea/
+shortfilm-backend/.vscode/
+shortfilm-backend/pip-log.txt
+shortfilm-backend/db.sqlite3
+shortfilm-backend/**/migrations/__pycache__/
+shortfilm-backend/**/migrations/*.py[cod]
+shortfilm-backend/**/migrations/*.py
+!shortfilm-backend/**/migrations/__init__.py
+
+# === Node / Next.js ===
+shortfilm-frontend/node_modules/
+shortfilm-frontend/.next/
+shortfilm-frontend/.env.local
+shortfilm-frontend/.env.development.local
+shortfilm-frontend/.env.test.local
+shortfilm-frontend/.env.production.local
+shortfilm-frontend/.eslintcache
+shortfilm-frontend/coverage/
+shortfilm-frontend/npm-debug.log*
+shortfilm-frontend/yarn-debug.log*
+shortfilm-frontend/yarn-error.log*
+shortfilm-frontend/package-lock.json
+shortfilm-frontend/pnpm-lock.yaml
+shortfilm-frontend/.turbo/
+
+# === Git ===
+*.orig
